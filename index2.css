@@ -1,0 +1,136 @@
+.body{
+    border: 2px solid green;
+}
+.heading{
+    text-align: center;
+}
+.heading1{
+    background: orange;
+    font-size: xx-large;
+    position: absolute;
+    top: 18px;
+    left: 430px;
+}
+.heading2{
+    background: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 18px;
+    left: 536px;
+}
+.heading3{
+    background: green;
+    font-size: xx-large;
+    position: absolute;
+    top: 18px;
+    left: 780px;
+}
+.city{
+    background-image: url(./city\ \(2\).png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    height: 321px;
+    width: 145%;
+    top: 185px;
+    left: 632px;
+    right: 0;
+    animation: city 3s linear infinite;
+}
+@keyframes city {
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.road{
+    background-image: url(./road\ \(2\).jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    height: 147px;
+    width: 125%;
+    top: 506px;
+    left: 0px;
+    right: 0;
+    animation: road 3s linear infinite;
+}
+@keyframes road {
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.container{
+    background-image: url(./sky\ \(2\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.car{
+    background-image: url(./car\ \(2\).png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 301px;
+    height: 111px;
+    top: 400px;
+    left: 422px;
+    right: 0;
+    animation: car 2s linear infinite;
+}
+@keyframes car {
+    100%{
+        transform: translateY(2px);
+    }
+}
+.frontwheel{
+   background-image: url(./wheel\ \(2\).png);
+   background-repeat: repeat-x;
+   background-size: cover;
+   position: absolute;
+   height: 54px;
+   width: 54px;
+   top: 466px;
+   left: 632px;
+   right: 0;
+   animation: wheel 1s linear infinite;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.backwheel{
+    background-image: url(./wheel\ \(2\).png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    top: 466px;
+    left: 448px;
+    right: 0;
+    animation: wheel 1s linear infinite;
+ }
+ @keyframes wheel{
+     100%{
+         transform: rotate(360deg);
+     }
+ }
+ .sun{
+    background-image: url(./istockphoto-1124567572-612x612.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 60px;
+    right: 74px;
+    animation: sun 6s linear infinite;
+ }
+ @keyframes sun {
+     100%{
+         transform: translateX(-200px);
+     }
+ }
